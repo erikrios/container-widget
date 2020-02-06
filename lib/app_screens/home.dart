@@ -10,6 +10,10 @@ class Home extends StatelessWidget {
         child: Text(
           'Flight',
           textDirection: TextDirection.ltr,
+          style: TextStyle(
+            decoration: TextDecoration.none,
+            fontSize: 75.0
+          ),
         ),
       ),
     );
