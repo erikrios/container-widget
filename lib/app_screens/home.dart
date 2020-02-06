@@ -11,9 +11,10 @@ class Home extends StatelessWidget {
           'Flight',
           textDirection: TextDirection.ltr,
           style: TextStyle(
-            decoration: TextDecoration.none,
-            fontSize: 75.0
-          ),
+              decoration: TextDecoration.none,
+              fontSize: 75.0,
+              fontFamily: 'Raleway',
+              fontWeight: FontWeight.w700),
         ),
       ),
     );
