@@ -11,7 +11,6 @@ class Home extends StatelessWidget {
           'Flight',
           textDirection: TextDirection.ltr,
         ),
-        margin: EdgeInsets.only(left: 15.0, top: 50.0),
       ),
     );
   }
