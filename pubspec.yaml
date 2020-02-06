@@ -61,12 +61,10 @@ flutter:
       fonts:
         - asset: fonts/Raleway-Regular.ttf
         - asset: fonts/Raleway-Bold.ttf
-          style: bold
           weight: 700
         - asset: fonts/Raleway-Italic.ttf
           style: italic
         - asset: fonts/Raleway-Medium.ttf
-          style: medium
     - family: Roboto
       fonts:
         - asset: fonts/Roboto-Regular.ttf
