@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
                 textDirection: TextDirection.ltr,
                 style: TextStyle(
                     decoration: TextDecoration.none,
-                    fontSize: 35.0,
+                    fontSize:20.0,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.w700,
                     color: Colors.white),
