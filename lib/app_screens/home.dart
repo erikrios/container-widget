@@ -9,7 +9,8 @@ class Home extends StatelessWidget {
           color: Colors.deepPurple,
           child: Row(
             children: <Widget>[
-              Text(
+              Expanded(
+                  child: Text(
                 'Spice Jet',
                 textDirection: TextDirection.ltr,
                 style: TextStyle(
@@ -18,8 +19,9 @@ class Home extends StatelessWidget {
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.w700,
                     color: Colors.white),
-              ),
-              Text(
+              )),
+              Expanded(
+                  child: Text(
                 'From Mumbai to Bangalore via New Delhi',
                 textDirection: TextDirection.ltr,
                 style: TextStyle(
@@ -28,7 +30,7 @@ class Home extends StatelessWidget {
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.w700,
                     color: Colors.white),
-              )
+              ))
             ],
           )),
     );
