@@ -5,6 +5,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
+          padding: EdgeInsets.only(left: 10.0, top: 40.0),
           alignment: Alignment.center,
           color: Colors.deepPurple,
           child: Column(
